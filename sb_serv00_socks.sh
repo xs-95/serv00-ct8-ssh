@@ -19,18 +19,18 @@ WORKDIR="/home/${USERNAME}/logs"
 
 # 定义变量
 export LC_ALL=C
-export UUID=${UUID:-'5195c04a-552f-4f9e-8bf9-216d257c0839'}
+export UUID=${UUID:-'7c8637f0-5ce0-4907-b4d8-03b72297a14d'}
 export NEZHA_SERVER=${NEZHA_SERVER:-'nezha.yutian81.top'} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
-export ARGO_AUTH=${ARGO_AUTH:-''} 
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'ag.xsvpn.sbs'}   
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZjEyODA2ZjU0Y2NjYmQ3NjMwYjliZjg4ZDllOWMzYjYiLCJ0IjoiZjk3ZWE5MTgtMzYwYS00YjQwLTljN2UtMjk5ZTNlOGMwOWY1IiwicyI6IlpqSTJZVGN4TldVdFkyWTROaTAwTlRObUxUazRNV1V0TnpnNE1EWXlZamcwTmpJMiJ9'} 
 export vmess_port=${vmess_port:-'40000'}
 export hy2_port=${hy2_port:-'41000'}
 export socks_port=${socks_port:-'42000'}
 export socks_user=${socks_user:-'abc123'}
 export socks_pass=${socks_pass:-'abc456'}
-export CFIP=${CFIP:-'fan.yutian.us.kg'} 
+export CFIP=${CFIP:-'www.visa.com'} 
 export CFPORT=${CFPORT:-'443'} 
 
 # 定义文件下载地址
